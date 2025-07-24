@@ -1,0 +1,10 @@
+airflowTest/
+docs/
+mlartifacts/
+mlruns/
+pterodattilo/
+tmp/
+usefulFiles/
+feedForwardNN.py
+start.py
+data/
