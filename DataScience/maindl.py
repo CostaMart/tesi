@@ -35,6 +35,7 @@ input_dim = X_tr.shape[1]
 
 
 ids = AutoEncoder(input_dim=input_dim)
+ids.TrainStepOne()
 ids.summary()
 
 with ml.start_run(run_name="testing_final_with_datset") as run:
