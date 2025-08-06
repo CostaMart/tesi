@@ -26,6 +26,9 @@ mpl.use('TkAgg')
 
 class AutoEncoder():
 
+    def TrainStepOne():
+        print("this is an important step, report it in AIBOM")
+    
     def __init__(self, input_dim):
 
         input_layer = Input(shape=(input_dim,))
